@@ -1,4 +1,3 @@
-# @leet start
 from collections import defaultdict
 
 
@@ -10,6 +9,3 @@ class Solution:
             numsFreq[num] += 1
 
         return sorted(numsFreq, key=numsFreq.get, reverse=True)[:k]
-
-
-# @leet end

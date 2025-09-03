@@ -1,4 +1,3 @@
-# @leet start
 from collections import Counter
 
 
@@ -13,7 +12,3 @@ class Solution:
             return True
 
         return False
-
-
-# @leet end
-

@@ -1,4 +1,3 @@
-# @leet start
 class Solution:
     def longestConsecutive(self, nums: list[int]) -> int:
         max_len = 0
@@ -17,7 +16,3 @@ class Solution:
             max_len = max(curr_len, max_len)
 
         return max_len
-
-
-# @leet end
-

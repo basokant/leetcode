@@ -1,4 +1,3 @@
-# @leet start
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         res = []
@@ -29,6 +28,3 @@ class Solution:
                         j += 1
 
         return res
-
-
-# @leet end

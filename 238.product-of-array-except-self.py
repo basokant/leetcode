@@ -1,4 +1,3 @@
-# @leet start
 class Solution:
     def productExceptSelf(self, nums: list[int]) -> list[int]:
         products = [1] * len(nums)
@@ -20,6 +19,3 @@ class Solution:
             products[i] *= prefix_sum[i]
 
         return products
-
-
-# @leet end

@@ -1,4 +1,3 @@
-# @leet start
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         alpha_s = "".join(c for c in list(s) if c.isalnum()).lower()
@@ -12,7 +11,3 @@ class Solution:
             right -= 1
 
         return True
-
-
-# @leet end
-

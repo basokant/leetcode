@@ -1,4 +1,3 @@
-# @leet start
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         numToIdxMap = dict((num, idx) for idx, num in enumerate(nums))
@@ -10,6 +9,3 @@ class Solution:
                 return [idx, otherIdx]
 
         return [-1, -1]
-
-
-# @leet end
